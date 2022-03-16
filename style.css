@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #edf2fc;
+  --secondary-color: #212121;
+}
+.dark-theme {
+  --primary-color: black;
+  --secondary-color: #edf2fc;
+}
+.hero {
+  height: 105vh;
+  width: 100%;
+  background: var(--primary-color);
+  font-family: sans-serif;
+  position: relative;
+}
+
+nav {
+  width: 84%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  height: 7.5rem;
+  padding: 1rem;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+nav ul li a:hover {
+  color: rgb(63, 63, 139);
+}
+.info {
+  margin-left: 8%;
+  margin-top: 7%;
+}
+.info h1 {
+  font-size: 70px;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+}
+span {
+  color: rgb(63, 63, 139);
+  font-family: "Playfair Display", serif;
+}
+.info p {
+  color: var(--secondary-color);
+  line-height: 22px;
+  width: 50%;
+}
+.info a {
+  background: var(--secondary-color);
+  padding: 10px 18px;
+  text-decoration: none;
+  color: var(--primary-color);
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+.gene {
+  color: rgb(63, 63, 139);
+  font-weight: 900;
+}
+.img-box {
+  width: 15%;
+  height: 30%;
+  position: absolute;
+  top: 15%;
+  right: 15%;
+}
+.img-box img {
+  height: 180%;
+  position: absolute;
+  left: 50%;
+  top: 5rem;
+  transform: translateX(-50%);
+  transition: bottom 1s, left 1s, top 1s;
+}
+.img-box:hover .back-img {
+  bottom: 3rem;
+}
+.img-box:hover .back-img2 {
+  left: 10rem;
+}
+.main-img {
+  width: 25rem;
+}
+#icon {
+  width: 2rem;
+  cursor: pointer;
+  margin-left: 3rem;
+}
+nav ul {
+  flex: 1;
+  text-align: right;
+}
+.discs1,
+.discs2,
+.discs3,
+.discs4,
+.discs5,
+.discs6,
+.discs7,
+.discs8,
+.discs9 {
+  position: absolute;
+  top: 41rem;
+  height: 15%;
+}
+.discs1 {
+  left: 5rem;
+}
+.discs2 {
+  left: 10rem;
+}
+.discs3 {
+  left: 15rem;
+}
+.discs4 {
+  left: 20rem;
+}
+.discs5 {
+  left: 25rem;
+}
+.discs6 {
+  left: 30rem;
+}
+.discs7 {
+  left: 35rem;
+}
+.discs8 {
+  left: 40rem;
+}
+.discs9 {
+  left: 45rem;
+}
